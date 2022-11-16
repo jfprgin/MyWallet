@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">MyWallet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Početni zaslon</string>
+    <string name="menu_gallery">Zapisi</string>
+    <string name="menu_slideshow">Moji popisi</string>
+    <string name="menu_pomoc">Pomoć</string>
+    <string name="title_activity_unos_zapisa">UnosZapisa</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="Kategorija">Kategorija</string>
+    <string name="Vrijednost">Vrijednost</string>
+    <string name="Biljeska">Biljeska</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pomoc_tekst"><b>Kako se registrirati?</b>\n
+Nakon pokretanja aplikacije otvara se forma za prijavu. U slučaju da korisnik nema korisnički račun, potrebno je stisnuti link „Registriraj se“ , čime se otvara forma za registraciju korisnika. Unose se redom: korisničko ime, lozinka i na kraju potvrda lozinke. Potom je potrebno stisnuti „REGISTRIRAJ SE“ i korisnik će bit dodan u bazu podataka ukoliko je popunio sva polja.
+\n\n<b>Kako se prijaviti?</b>\n
+Nakon pokretanja aplikacije otvara se forma za prijavu. Potrebno je unijeti korisničko ime i lozinku. Ukoliko su podaci odgovarajući, korisnik pristupa svom računu u aplikaciji.
+\n\n<b>Kako unijeti novi zapis?</b>\n
+Na početnom zaslonu je potrebno stisnuti u donjem desnom kutu znak \'+\'. Nakon toga se otvara forma za unos zapisa. Potrebno je odabrati „UNOS PRIHODA“ Ili „UNOS TROŠKA“ u gornjem dijelu forme. Nakon toga se stisne na liniju ispod odabira vrste zapisa te se odabere željena kategorija troška/prihoda. Ako se ne odabere, kategorija će bit ona koja je već postavljena prije. Ispod se unosi vrijednost zapisa, a na kraju eventualno bilješka o tom zapisu. Primjer: odabrana je kategorija troška: kućanstvo, vrijednost troška je 450, a bilješka „Režije – Internet i voda“.
+Nakon što je sve uneseno, stisnuti „DODAJ“ kako bi se zapis evidentirao i ispiše se poruka „Uspješno dodano!“ . U slučaju da se želi odustati od unosa zapisa, stisnuti „ODUSTANI“.
+\n\n<b>Što prikazuje početni zaslon?</b>\n
+Na početnom zaslonu se nalaze  dva grafikona. Jedan prikazuje troškove, a drugi prihode. Prikazuju udio troškova/prihoda u postotcima ispod kojih se nalazi kategorija za koju je vezan taj udio. Iznad grafikona, na vrhu, nalazi se ukupna vrijednost prihoda i troška. U donjem desnom kutu nalazi se znak \'+\', za dodavanje novog zapisa. U gornjem lijevom kutu nalazi se oznaka sa tri paralelne crtice kojom se pritiskom otvara ladica ostalih opcija koje nudi aplikacija (vidi: Što sadrži Izbornik?). Isto tako, Izbornik se može otvoriti povlačenjem slijeva na desno.
+\n\n<b>Što sadrži Izbornik?</b>\n
+Otvaranjem Izbornika prikazane su opcije,a  to su: „ODJAVA“, „Početni zaslon“, „Zapisi“, „Moji popisi“, „Pomoć“. Isto tako, na vrhu je prikazana ikona profila ispod koje je korisničko ime. Izbornik se zatvara povlačenjem zdesna na lijevo ili pritiskom na „Početni zaslon“ .
+\n\n<b>Kako se odjaviti?</b>\n
+Pritiskom na „ODJAVA“ u Izborniku, korisnik se odjavljuje sa svoga računa. To znači da nakon ponovnog pokretanja aplikacije mora upisati svoje podatke (korisničko ime i lozinku), kako bi ponovno pristupio aplikaciji, odnosno svome računu s podacima.
+\n\n<b>Gdje su zapisi?</b>\n
+Pritiskom na „Zapisi“ u Izborniku, otvara se povijest svih zapisa koje je korisnik unio. Odabere se „PRIHOD“ Ili „TROŠAK“ te se ispisuje ispod povijest tih zapisa. Svaki zapis je prikazan kategorijom, ispod koje je eventualna bilješka, a na kraju je prikazana i vrijednost tog zapisa.
+\n\n<b>Kako izbrisati zapis?</b>\n
+Otići u „Zapisi“ koji se nalaze u Izborniku. Potom u Zapisima stisnuti zapis koji želimo izbrisati i otvori se forma gdje se nudi mogućnost „IZBRIŠI“, na koju se stisne. Prikaže se poruka „Jeste li sigurni?“, potrebno je stisnuti „DA“. U suprotnom stisnuti „NE“.
+\n\n<b>Kako izmijeniti zapis?</b>\n
+Otići u „Zapisi“ koji se nalaze u Izborniku. Potom u Zapisima stisnuti zapis koji želimo izmijeniti (ažurirati) i otvori se forma gdje se nudi mogućnost „AŽURIRAJ“. Odabere se kategorija, ukoliko ju je potrebno mijenjati, upiše se vrijednost, ispod eventualna bilješka i stisne se „AŽURIRAJ“.
+</string>
+
+    <string name="login">Prijavi se</string>
+    <string name="username">Korisničko ime</string>
+    <string name="password">Lozinka</string>
+    <string name="not_registered">Nisi registriran?</string>
+    <string name="register">Registriraj se</string>
+    <string name="confirm_password">Potvrdi lozinku</string>
+    <string name="already_registered">Već si registriran?</string>
+    <string name="welcome_user">Welcome User</string>
+
+
+    <string-array name="Kategorije_prihod">
+        <item>Plaća</item>
+        <item>Poklon</item>
+        <item>Nagrada</item>
+        <item>Ostalo</item>
+    </string-array>
+
+    <string-array name="Kategorije_trosak">
+        <item>Hrana i piće</item>
+        <item>Kupovina</item>
+        <item>Kućanstvo</item>
+        <item>Prijevoz</item>
+        <item>Zabava</item>
+        <item>Ostalo</item>
+    </string-array>
+</resources>
